@@ -9,7 +9,7 @@ int scale = 0;
 int r = 240;
 int g = 255;
 int b = 255;
-String tx = "Press R, G, or B to change color."
+String tx = "Press R, G, or B to change color.";
 String tx2 = "Press mouse 1 to reset squares and color";
 void setup()
 {

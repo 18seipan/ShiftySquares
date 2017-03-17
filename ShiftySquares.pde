@@ -51,7 +51,7 @@ void draw()
   }
   fill(255);
   text(tx, 5, 5);
-  text(tx2, 5, 20);
+  text(tx2, 5, 30);
 }
 
 void mousePressed() {

@@ -50,7 +50,7 @@ void draw()
     y = 0;
   }
   fill(255);
-  text(tx, 10, 50);
+  text(tx, 0, 50);
 }
 
 void mousePressed() {

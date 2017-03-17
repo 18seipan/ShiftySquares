@@ -6,10 +6,11 @@ int y = 0;
 int sz = 50;
 int theSeed = 0;
 int scale = 0;
-int r = 255;
+int r = 240;
 int g = 255;
 int b = 255;
-String tx = "Press R, G, or B to change color. Press mouse 1 to reset squares and color";
+String tx = "Press R, G, or B to change color."
+String tx2 = "Press mouse 1 to reset squares and color";
 void setup()
 {
   size(500, 500);
@@ -50,7 +51,8 @@ void draw()
     y = 0;
   }
   fill(255);
-  text(tx, 0, 50);
+  text(tx, 5, 5);
+  text(tx2, 5, 20);
 }
 
 void mousePressed() {

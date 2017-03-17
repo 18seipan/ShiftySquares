@@ -10,13 +10,12 @@ int r = 240;
 int g = 255;
 int b = 255;
 String tx = "Press R, G, or B to change color.";
-String tx2 = "Press mouse 1 to reset squares and color";
+String tx2 = "Press mouse 1 to reset squares and color.";
 void setup()
 {
   size(500, 500);
   background(255, 255, 255);
   fill(255);
-  text(text, 10, 10);
   noStroke();
   textSize(18);
 }
